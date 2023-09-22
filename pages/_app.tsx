@@ -16,3 +16,4 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   // return <Component {...pageProps} />
   return getLayout(<Component {...pageProps} />)
 }
+[]
